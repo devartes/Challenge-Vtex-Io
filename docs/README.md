@@ -1,5 +1,10 @@
 # Desafio M3 Academy - VTEX IO 
 
+
+| Desktop | 
+|----------|
+| <img src="https://i.ibb.co/4j5QXc9/Sand-lia-Azul-Spike-Amarra-o-9.png" alt="Sand-lia-Azul-Spike-Amarra-o-9" width="300px" height="100%">
+
 ## Configuração do inicial
 
 1. Instale as dependências do projeto
