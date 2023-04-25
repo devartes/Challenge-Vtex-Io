@@ -1,0 +1,49 @@
+// Slider
+
+.container--slider-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  @media (max-width: 1025px) and (min-width: 768px) {
+    margin-bottom: 24px;
+  }
+  @media (max-width: 768px) and (min-width: 375px) {
+    margin-bottom: 16px;
+  }
+  .wrapper--slider-title {
+    .heading--slider-title {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 38px;
+      text-align: center;
+      color: #575757;
+      margin: 0;
+      @media (max-width: 768px) and (min-width: 375px) {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+// Footer Credits
+
+.container {
+  .wrapper {
+    .paragraph {
+      margin: 0;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.45);
+      white-space: nowrap;
+      @media (max-width: 768px) and (min-width: 375px) {
+        white-space: unset;
+      }
+    }
+    .paragraph--footer {
+      font-weight: 700;
+    }
+  }
+}

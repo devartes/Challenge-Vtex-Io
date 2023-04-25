@@ -1,0 +1,191 @@
+/*
+0 - 600PX: Phone
+600 - 900px: Table portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our nortal styles apply
+1800px + : Big desktop
+*/
+/* Media Query M3 */
+/* Grid breakpoints */
+.sliderLayoutContainer--carousel {
+  background: unset;
+  width: 94.435%;
+  margin: 0 auto 113px;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .sliderLayoutContainer--carousel {
+    width: 71.858%;
+    min-height: 543.4px;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .sliderLayoutContainer--carousel {
+    width: 92.166%;
+    margin: 0 auto 105px;
+    min-height: 383.2px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .sliderLayoutContainer--carousel {
+    width: 78.616%;
+    margin: 0 auto 32px;
+    min-height: 254.8px;
+  }
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer {
+  width: 96%;
+  margin: 0 auto;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer {
+    width: 97.012%;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer {
+    width: 95.085%;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer {
+    width: 87.03%;
+  }
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel {
+  width: 5.3515% !important;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel {
+    width: 5.4036% !important;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel {
+    width: 6.0831% !important;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel {
+    width: 6.921% !important;
+  }
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel {
+  width: 100%;
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) {
+  max-width: 100% !important;
+  border-radius: 0;
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) {
+  height: auto;
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) {
+  padding: 0;
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-nameContainer) {
+  padding: 16px 0 8px;
+  display: flex;
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-nameContainer) :global(.vtex-product-summary-2-x-productNameContainer) {
+  line-height: 0;
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-nameContainer) :global(.vtex-product-summary-2-x-productNameContainer) :global(.vtex-product-summary-2-x-productBrand) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  display: inline-block;
+  vertical-align: text-top;
+  padding: 0 16px;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-nameContainer) :global(.vtex-product-summary-2-x-productNameContainer) :global(.vtex-product-summary-2-x-productBrand) {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0 8px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-nameContainer) :global(.vtex-product-summary-2-x-productNameContainer) :global(.vtex-product-summary-2-x-productBrand) {
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-imageContainer) {
+  width: 100%;
+  height: 314.4px;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-imageContainer) {
+    height: 434.4px;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-imageContainer) {
+    height: 291.2px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-imageContainer) {
+    height: 124.8px;
+  }
+}
+.sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-imageContainer) :global(.vtex-product-summary-2-x-imageContainer) :global(.vtex-product-summary-2-x-imageNormal) {
+  border-radius: 0;
+}
+@media (max-width: 1920px) and (min-width: 1024px) {
+  .sliderLayoutContainer--carousel .sliderTrackContainer .sliderTrack .slide--carousel .slideChildrenContainer--carousel :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-product-summary-2-x-imageContainer) :global(.vtex-product-summary-2-x-imageContainer) :global(.vtex-product-summary-2-x-imageNormal) {
+    min-width: 100%;
+  }
+}
+.sliderLayoutContainer--carousel .sliderArrows {
+  padding: 0;
+  margin: 0;
+}
+.sliderLayoutContainer--carousel .sliderLeftArrow {
+  visibility: hidden;
+  width: 11.2px;
+  height: 29.6px;
+}
+.sliderLayoutContainer--carousel .sliderLeftArrow::before {
+  content: "";
+  background: url("https://agenciamagma.vteximg.com.br/arquivos/sliderLeftArrow-m3academy-anacarolinaduartecavalcante.svg");
+  visibility: visible;
+  width: 11.2px;
+  height: 29.6px;
+  left: 0;
+  position: absolute;
+}
+.sliderLayoutContainer--carousel .sliderRightArrow {
+  visibility: hidden;
+  width: 11.2px;
+  height: 29.6px;
+}
+.sliderLayoutContainer--carousel .sliderRightArrow::before {
+  content: "";
+  background: url("https://agenciamagma.vteximg.com.br/arquivos/sliderRightArrow-m3academy-anacarolinaduartecavalcante.svg");
+  visibility: visible;
+  width: 11.2px;
+  height: 29.6px;
+  right: 0;
+  position: absolute;
+}
+.sliderLayoutContainer--carousel .paginationDotsContainer {
+  display: flex;
+  align-items: center;
+  bottom: -32px;
+}
+.sliderLayoutContainer--carousel .paginationDotsContainer .paginationDot {
+  background-color: #000000;
+  width: 10px !important;
+  height: 10px !important;
+}
+.sliderLayoutContainer--carousel .paginationDotsContainer .paginationDot--isActive {
+  background-color: #ffffff;
+  border: 0.5px solid #000000;
+  width: 17px !important;
+  height: 17px !important;
+}

@@ -1,0 +1,168 @@
+/*
+0 - 600PX: Phone
+600 - 900px: Table portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our nortal styles apply
+1800px + : Big desktop
+*/
+/* Media Query M3 */
+/* Grid breakpoints */
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .menuContainerNav--header-menu .menuContainer--header-menu {
+    margin-left: 308.08px;
+  }
+}
+.menuContainerNav--header-menu .menuContainer--header-menu .menuItem .styledLinkContainer {
+  margin-right: 15px;
+}
+.menuContainerNav--header-menu .menuContainer--header-menu .menuItem .styledLinkContainer .styledLink .styledLinkContent {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: -0.1em;
+  text-transform: uppercase;
+  color: #929292 !important;
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  .menuContainerNav .menuContainer {
+    margin-bottom: 14px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .menuContainerNav .menuContainer {
+    margin-bottom: 14px;
+  }
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer {
+  margin-left: 0;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer {
+    margin: 0;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink {
+    width: 100%;
+  }
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #929292;
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--site-m3-academy-mobile--isClosed,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--am3academy-mobile--isClosed {
+  visibility: hidden;
+  width: 17px;
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--site-m3-academy-mobile--isClosed::before,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--am3academy-mobile--isClosed::before {
+  visibility: visible;
+  content: url(https://agenciamagma.vteximg.com.br/arquivos/arrow-up-footer-m3academy-anacarolinaduartecavalcante.svg);
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--site-m3-academy-mobile--isOpen,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--am3academy-mobile--isOpen {
+  visibility: hidden;
+  transform: rotate(179deg);
+  width: 17px;
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--site-m3-academy-mobile--isOpen::before,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--am3academy-mobile--isOpen::before {
+  visibility: visible;
+  content: url(https://agenciamagma.vteximg.com.br/arquivos/arrow-up-footer-m3academy-anacarolinaduartecavalcante.svg);
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--site-m3-academy,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--am3academy,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--seja-um-franqueado-block {
+  line-height: 38px;
+  text-align: center;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--seja-um-franqueado-block {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--seja-um-franqueado-block {
+    display: flex;
+    justify-content: center;
+  }
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--cnpj,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--responsabilidade-social {
+  line-height: 30px;
+  text-decoration-line: underline;
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--seja-um-franqueado-link,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--multimarcas {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 164px;
+  height: 42px;
+  border: 1px solid #ffffff;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--seja-um-franqueado-link,
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--multimarcas {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--seja-um-franqueado-link,
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--multimarcas {
+    width: 100%;
+  }
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--site-m3-academy-mobile,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--am3academy-mobile {
+  border-bottom: 1px solid #ffffff;
+  padding: 8px 0;
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--site-m3-academy,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--site-m3-academy-mobile,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--cnpj,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--am3academy,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--am3academy-mobile,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--responsabilidade-social,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer .styledLink .styledLinkContent--seja-um-franqueado-block {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer--am3academy-mobile,
+.menuContainerNav .menuContainer .menuItem .styledLinkContainer--site-m3-academy-mobile {
+  margin: 0;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer--seja-um-franqueado-link,
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer--multimarcas {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer--seja-um-franqueado-link,
+  .menuContainerNav .menuContainer .menuItem .styledLinkContainer--multimarcas {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,23 @@
+//Código de referência Produto
+
+.product-identifier__label,
+.product-identifier__separator {
+  display: none;
+}
+
+.product-identifier__value {
+  float: right;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: rgba(146, 146, 146, 0.48);
+  @media (max-width: 1025px) and (min-width: 768px) {
+    text-align: left;
+    float: left;
+  }
+  @media (max-width: 768px) and (min-width: 375px) {
+    text-align: left;
+    float: left;
+  }
+}

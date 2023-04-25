@@ -1,0 +1,33 @@
+.PixContent {
+  margin-top: 8px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  column-gap: 26px;
+}
+
+.ImgPixContent {
+  width: 66.01px;
+  height: 24px;
+}
+
+.PixDiscount {
+  display: flex;
+  flex-direction: column;
+  height: 39px;
+}
+
+.TextPixDiscount {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.58);
+  margin: 0;
+}
+
+.TextDiscount {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  color: #929292;
+}

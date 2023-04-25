@@ -1,0 +1,56 @@
+/*
+0 - 600PX: Phone
+600 - 900px: Table portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our nortal styles apply
+1800px + : Big desktop
+*/
+/* Media Query M3 */
+/* Grid breakpoints */
+.container--slider-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .container--slider-title {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .container--slider-title {
+    margin-bottom: 16px;
+  }
+}
+.container--slider-title .wrapper--slider-title .heading--slider-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #575757;
+  margin: 0;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .container--slider-title .wrapper--slider-title .heading--slider-title {
+    font-size: 20px;
+  }
+}
+
+.container .wrapper .paragraph {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.45);
+  white-space: nowrap;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .container .wrapper .paragraph {
+    white-space: unset;
+  }
+}
+.container .wrapper .paragraph--footer {
+  font-weight: 700;
+}

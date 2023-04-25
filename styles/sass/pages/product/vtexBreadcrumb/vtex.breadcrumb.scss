@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0 0 16px;
+  @media (max-width: 2561px) and (min-width: 1920px) {
+    margin: 0 auto;
+    width: 71.858%;
+  }
+  .homeLink {
+    padding: 0 12px 0 0;
+  }
+
+  .homeLink::before {
+    content: "Home";
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $gray;
+  }
+
+  .homeIcon {
+    display: none;
+  }
+
+  .arrow {
+    align-items: center;
+    display: flex;
+    padding: 0 12px 0 0;
+    .caretIcon {
+     display: none;
+    }
+    ::before {
+      content: ">";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: $gray;
+      margin-right: 13px;
+    }
+    .link {
+      padding: 0;
+    }
+  }
+
+  .termArrow {
+    display: none;
+  }
+
+  .term{
+    padding: 0;
+  }
+
+  .term::before {
+    content: ">";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $gray;
+    margin-right: 15px;
+  }
+
+  .link,
+  .term {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $gray;
+  }
+}

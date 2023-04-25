@@ -1,0 +1,160 @@
+//Slider
+
+.sliderLayoutContainer--carousel {
+  background: unset;
+  width: 94.435%;
+  margin: 0 auto 113px;
+  @media (max-width: 2561px) and (min-width: 1920px) {
+    width: 71.858%;
+    min-height: 543.4px;
+  }
+  @media (max-width: 1025px) and (min-width: 768px) {
+    width: 92.166%;
+    margin: 0 auto 105px;
+    min-height: 383.2px;
+  }
+  @media (max-width: 768px) and (min-width: 375px) {
+    width: 78.616%;
+    margin: 0 auto 32px;
+    min-height: 254.8px;
+  }
+  .sliderTrackContainer {
+    width: 96%;
+    margin: 0 auto;
+    @media (max-width: 2561px) and (min-width: 1920px) {
+      width: 97.012%;
+    }
+    @media (max-width: 1025px) and (min-width: 768px) {
+      width: 95.085%;
+    }
+    @media (max-width: 768px) and (min-width: 375px) {
+      width: 87.03%;
+    }
+    .sliderTrack {
+      .slide--carousel {
+        width: 5.3515% !important;
+        @media (max-width: 2561px) and (min-width: 1920px) {
+          width: 5.4036% !important;
+        }
+        @media (max-width: 1025px) and (min-width: 768px) {
+          width: 6.0831% !important;
+        }
+        @media (max-width: 768px) and (min-width: 375px) {
+          width: 6.921% !important;
+        }
+        .slideChildrenContainer--carousel {
+          width: 100%;
+          :global(.vtex-product-summary-2-x-containerNormal) {
+            max-width: 100% !important;
+            border-radius: 0;
+            :global(.vtex-product-summary-2-x-clearLink) {
+              height: auto;
+              :global(.vtex-product-summary-2-x-element) {
+                padding: 0;
+                :global(.vtex-product-summary-2-x-nameContainer) {
+                  padding: 16px 0 8px;
+                  display: flex;
+                  justify-content: center;
+                  :global(.vtex-product-summary-2-x-productNameContainer) {
+                    line-height: 0;
+                    :global(.vtex-product-summary-2-x-productBrand) {
+                      font-weight: 400;
+                      font-size: 18px;
+                      line-height: 25px;
+                      text-align: center;
+                      color: $black;
+                      display: inline-block;
+                      vertical-align: text-top;
+                      padding: 0 16px;
+                      @media (max-width: 1025px) and (min-width: 768px) {
+                        font-size: 14px;
+                        line-height: 19px;
+                        padding: 0 8px;
+                      }
+                      @media (max-width: 768px) and (min-width: 375px) {
+                        padding: 0 8px;
+                        font-size: 14px;
+                        line-height: 19px;
+                      }
+                    }
+                  }
+                }
+                :global(.vtex-product-summary-2-x-imageContainer) {
+                  width: 100%;
+                  height: 314.4px;
+                  @media (max-width: 2561px) and (min-width: 1920px) {
+                    height: 434.4px;
+                  }
+                  @media (max-width: 1025px) and (min-width: 768px) {
+                    height: 291.2px;
+                  }
+                  @media (max-width: 768px) and (min-width: 375px) {
+                    height: 124.8px;
+                  }
+                  :global(.vtex-product-summary-2-x-imageContainer) {
+                    :global(.vtex-product-summary-2-x-imageNormal) {
+                      border-radius: 0;
+                      @media (max-width: 1920px) and (min-width: 1024px) {
+                        min-width: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sliderArrows {
+    padding: 0;
+    margin: 0;
+  }
+  .sliderLeftArrow {
+    visibility: hidden;
+    width: 11.2px;
+    height: 29.6px;
+  }
+  .sliderLeftArrow::before {
+    content: "";
+    background: url("https://agenciamagma.vteximg.com.br/arquivos/sliderLeftArrow-m3academy-anacarolinaduartecavalcante.svg");
+    visibility: visible;
+    width: 11.2px;
+    height: 29.6px;
+    left: 0;
+    position: absolute;
+  }
+
+  .sliderRightArrow {
+    visibility: hidden;
+    width: 11.2px;
+    height: 29.6px;
+  }
+
+  .sliderRightArrow::before {
+    content: "";
+    background: url("https://agenciamagma.vteximg.com.br/arquivos/sliderRightArrow-m3academy-anacarolinaduartecavalcante.svg");
+    visibility: visible;
+    width: 11.2px;
+    height: 29.6px;
+    right: 0;
+    position: absolute;
+  }
+  .paginationDotsContainer {
+    display: flex;
+    align-items: center;
+    bottom: -32px;
+    .paginationDot {
+      background-color: $black;
+      width: 10px !important;
+      height: 10px !important;
+    }
+    .paginationDot--isActive {
+      background-color: $white;
+      border: 0.5px solid $black;
+      width: 17px !important;
+      height: 17px !important;
+    }
+  }
+}

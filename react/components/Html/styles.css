@@ -1,0 +1,221 @@
+/* Header Telemarketing */
+
+:global(.vtex-telemarketing-2-x-wrapper) {
+  background-color: #000000;
+  height: 34px;
+}
+
+/* Product Main  */
+
+@media (max-width: 2561px) and (min-width: 1920px) {
+  :global(.agenciamagma-store-theme-5-x-html--product-main-content) {
+    display: grid;
+    grid-template-columns: 49.131% 49.131%;
+    column-gap: 32px;
+    width: 71.858%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1920px) and (min-width: 1024px) {
+  :global(.agenciamagma-store-theme-5-x-html--product-main-content) {
+    display: grid;
+    grid-template-columns: 48.819% 48.819%;
+    padding: 0 40px;
+    column-gap: 32px;
+  }
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  :global(.agenciamagma-store-theme-5-x-html--product-main-content) {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0 40px 0;
+  }
+
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.agenciamagma-store-theme-5-x-html--product-main-content) {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0 40px 0 40px;
+  }
+}
+
+/* Product Quantity and Add To Cart Button */
+
+:global(.agenciamagma-store-theme-5-x-html--cart-content) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.agenciamagma-store-theme-5-x-html--cart-content) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+[data-testid="product-quantity"] {
+  height: 49px;
+}
+
+[data-testid="add-to-cart-button"] {
+  width: 100%;
+}
+
+
+/* Product Availability */
+
+@media (max-width: 2561px) and (min-width: 1920px) {
+  :global(.agenciamagma-store-theme-5-x-html--product-availability-block) {
+    display: grid;
+    grid-template-columns: 49.131% 49.131%;
+    column-gap: 32px;
+    width: 71.858%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1920px) and (min-width: 1024px) {
+  :global(.agenciamagma-store-theme-5-x-html--product-availability-block) {
+    display: grid;
+    grid-template-columns: 48.819% 48.819%;
+    padding: 0 40px;
+    column-gap: 32px;
+
+  }
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  :global(.agenciamagma-store-theme-5-x-html--product-availability-block) {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0 40px;
+  }
+
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.agenciamagma-store-theme-5-x-html--product-availability-block) {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0 40px;
+    margin-bottom: 8px;
+  }
+}
+
+
+/* Footer */
+
+:global(.agenciamagma-store-theme-5-x-html--seja-um-franqueado) {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 2561px) and (min-width: 1920px) {
+  :global(.agenciamagma-store-theme-5-x-html--seja-um-franqueado) {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  :global(.agenciamagma-store-theme-5-x-html--seja-um-franqueado) {
+    display: unset;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.agenciamagma-store-theme-5-x-html--seja-um-franqueado) {
+    display: unset;
+  }
+}
+
+:global(.agenciamagma-store-theme-5-x-html--social-networks-component), :global(.agenciamagma-store-theme-5-x-html--payment-methods-component) {
+  display: flex;
+  justify-content: right;
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  :global(.agenciamagma-store-theme-5-x-html--social-networks-component), :global(.agenciamagma-store-theme-5-x-html--payment-methods-component) {
+    display: unset;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.agenciamagma-store-theme-5-x-html--social-networks-component), :global(.agenciamagma-store-theme-5-x-html--payment-methods-component) {
+    display: unset;
+  }
+}
+
+/* Footer Credits */
+
+:global(.agenciamagma-store-theme-5-x-html--credits) {
+  height: 107px;
+  background: #000000;
+  border-top: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 32px 32px 0 438.5px;
+}
+
+@media (max-width: 2561px) and (min-width: 1920px) {
+  :global(.agenciamagma-store-theme-5-x-html--credits) {
+    justify-content: space-between;
+    padding: 31.5px 320px 15.5px;
+  }
+}
+
+:global(.agenciamagma-store-theme-5-x-html--credits-mobile) {
+  background: #000000;
+  border-top: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  height: 131px;
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.agenciamagma-store-theme-5-x-html--credits-mobile) {
+    height: 151px;
+  }
+}
+
+:global(.agenciamagma-store-theme-5-x-html--footer-credits-information) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  :global(.agenciamagma-store-theme-5-x-html--footer-credits-information) {
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.agenciamagma-store-theme-5-x-html--footer-credits-information) {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 2561px) and (min-width: 1920px) {
+  :global(.agenciamagma-store-theme-5-x-html--footer-credits-information) {
+    align-items: flex-start;
+  }
+}
+
+:global(.agenciamagma-store-theme-5-x-html--footer-credits-information-mobile) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,81 @@
+{
+  "condition-layout.product#availability": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "html#product-main",
+      "Else": "html#product-availability"
+    }
+  },
+  "html#product-main": {
+    "props": {
+      "blockClass": "product-main-content"
+    },
+    "children": ["html#flex-layout.col#stack", "html#right-col"]
+  },
+
+  "html#flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "blockClass": "stack-layout-content",
+      "rowGap": 0
+    }
+  },
+
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "html#flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "html#product-availability": {
+    "props": {
+      "blockClass": "product-availability-block"
+    },
+    "children": ["html#flex-layout.col#stack", "html#right-col-availability"]
+  },
+
+  "html#right-col-availability": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "info-availability"
+    },
+    "children": [
+      "html#identification-product-availability",
+      "flex-layout.row#availability",
+      "html#sku-selector"
+    ]
+  },
+
+  "html#identification-product-availability": {
+    "props": {
+      "blockClass": "identification-product-availability"
+    },
+    "children": ["html#product-name", "product-identifier.product"]
+  },
+
+  "flex-layout.row#availability": {
+    "props": {
+      "blockClass": "message-availability"
+    },
+    "children": ["availability-subscriber"]
+  }
+}

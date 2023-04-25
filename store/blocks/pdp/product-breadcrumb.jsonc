@@ -1,0 +1,9 @@
+{
+  "html#breadcrumb": {
+    "props": {
+      "testId": "breadcrumbs",
+      "blockClass": "pdp-breadcrumb"
+    },
+    "children": ["breadcrumb"]
+  }
+}

@@ -1,0 +1,26 @@
+:global(.vtex-login-2-x-container) {
+  width: 22px;
+  :global(.vtex-button) {
+    width: 22px;
+    border: 0;
+    @media (max-width: 768px) and (min-width: 375px) {
+      left: 30px;
+    }
+    :global(.vtex-button__label) {
+      visibility: hidden;
+      padding: 0;
+      width: 22px;
+      :global(.vtex-login-2-x-label) {
+        display: none;
+      }
+    }
+    :global(.vtex-button__label)::before {
+      content: "";
+      background: url("https://agenciamagma.vteximg.com.br/arquivos/user-icon-m3academy-anacarolinaduartecavalcante.svg");
+      visibility: visible;
+      width: 22px;
+      height: 18px;
+      padding: 0;
+    }
+  }
+}

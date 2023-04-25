@@ -1,0 +1,150 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-1-desktop",
+      "html#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-site-m3-academy",
+      "vtex.menu@2.x:menu#footer-am3academy",
+      "html#seja-um-franqueado",
+      "html#right-block"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "html#seja-um-franqueado": {
+    "props": {
+      "blockClass": "seja-um-franqueado"
+    },
+    "children": ["vtex.menu@2.x:menu#footer-seja-um-franqueado-container"]
+  },
+  "html#right-block": {
+    "children": [
+      "html#social-networks-component",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "html#social-networks-component": {
+    "props": {
+      "blockClass": "social-networks-component"
+    },
+    "children": ["social-networks-component"]
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["html#payment-methods-component"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "html#payment-methods-component": {
+    "props": {
+      "blockClass": "payment-methods-component"
+    },
+    "children": ["payment-methods-component"]
+  },
+  "html#footer-3-desktop": {
+    "children": [
+      "html#footer-credits-information",
+      "html#footer-credits-authors"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "html#footer-credits-information": {
+    "props": {
+      "blockClass": "footer-credits-information"
+    },
+    "children": [
+      "rich-text#footer",
+      "rich-text#footer-address",
+      "rich-text#footer-cnpj"
+    ]
+  },
+  "html#footer-credits-authors": {
+    "props": {
+      "blockClass": "authors-component"
+    },
+    "children": ["authors-component"]
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "Copyright © 2022 M3 Academy. Todos os direitos reservados.",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#footer-address": {
+    "props": {
+      "text": "R. Helena Coutinho, 41 - Braunes - Nova Friburgo - RJ",
+      "blockClass": "footer-address"
+    }
+  },
+  "rich-text#footer-cnpj": {
+    "props": {
+      "text": "CNPJ: 12.345.678.0009-10",
+      "blockClass": "footer-cnpj"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#newsletter",
+      "flex-layout.row#1-footer-mobile",
+      "html#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#newsletter": {
+    "children": ["newsletter"],
+    "props": {
+      "blockClass": "newsletter-footer"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "label": "Assine nossa newsletter",
+      "placeholder": "Digite seu e-mail"
+    }
+  },
+  "html#2-footer-mobile": {
+    "children": ["html#footer-1-mobile"],
+    "props": {
+      "blockClass": "credits-mobile",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "html#footer-1-mobile": {
+    "children": [
+      "html#footer-credits-information",
+      "html#footer-credits-authors"
+    ],
+    "props": {
+      "blockClass": "footer-credits-information-mobile",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "blockClass": "menu-row-mobile",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile",
+      "html#seja-um-franqueado",
+      "social-networks-component",
+      "html#payment-methods-component"
+    ]
+  }
+}

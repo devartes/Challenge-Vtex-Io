@@ -1,0 +1,154 @@
+//Header
+
+.menuContainerNav--header-menu {
+  .menuContainer--header-menu {
+    @media (max-width: 2561px) and (min-width: 1920px) {
+      margin-left: 308.08px;
+    }
+    .menuItem {
+      .styledLinkContainer {
+        margin-right: 15px;
+        .styledLink{
+          .styledLinkContent{
+            font-weight: 400 !important;
+            font-size: 12px !important;
+            line-height: 16px !important;
+            letter-spacing: -0.1em;
+            text-transform: uppercase;
+            color: $gray !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+//Footer
+
+.menuContainerNav {
+  .menuContainer {
+    @media (max-width: 1025px) and (min-width: 768px) {
+      margin-bottom: 14px;
+    }
+    @media (max-width: 768px) and (min-width: 375px) {
+      margin-bottom: 14px;
+    }
+    .menuItem {
+      .styledLinkContainer {
+        margin-left: 0;
+        @media (max-width: 1025px) and (min-width: 768px) {
+          margin: 0;
+        }
+        @media (max-width: 768px) and (min-width: 375px) {
+          margin: 0;
+        }
+        .styledLink {
+          @media (max-width: 1025px) and (min-width: 768px) {
+            width: 100%;
+          }
+          @media (max-width: 768px) and (min-width: 375px) {
+            width: 100%;
+          }
+          .styledLinkContent {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            color: $gray;
+            .accordionIcon--site-m3-academy-mobile--isClosed,
+            .accordionIcon--am3academy-mobile--isClosed {
+              visibility: hidden;
+              width: 17px;
+            }
+            .accordionIcon--site-m3-academy-mobile--isClosed::before,
+            .accordionIcon--am3academy-mobile--isClosed::before {
+              visibility: visible;
+              content: url(https://agenciamagma.vteximg.com.br/arquivos/arrow-up-footer-m3academy-anacarolinaduartecavalcante.svg);
+            }
+            .accordionIcon--site-m3-academy-mobile--isOpen,
+            .accordionIcon--am3academy-mobile--isOpen {
+              visibility: hidden;
+              transform: rotate(179deg);
+              width: 17px;
+            }
+            .accordionIcon--site-m3-academy-mobile--isOpen::before,
+            .accordionIcon--am3academy-mobile--isOpen::before {
+              visibility: visible;
+              content: url(https://agenciamagma.vteximg.com.br/arquivos/arrow-up-footer-m3academy-anacarolinaduartecavalcante.svg);
+            }
+          }
+          .styledLinkContent--site-m3-academy,
+          .styledLinkContent--am3academy,
+          .styledLinkContent--seja-um-franqueado-block {
+            line-height: 38px;
+            text-align: center;
+          }
+          .styledLinkContent--seja-um-franqueado-block {
+            @media (max-width: 1025px) and (min-width: 768px) {
+              display: flex;
+              justify-content: center;
+            }
+            @media (max-width: 768px) and (min-width: 375px) {
+              display: flex;
+              justify-content: center;
+            }
+          }
+          .styledLinkContent--cnpj,
+          .styledLinkContent--responsabilidade-social {
+            line-height: 30px;
+            text-decoration-line: underline;
+          }
+          .styledLinkContent--seja-um-franqueado-link,
+          .styledLinkContent--multimarcas {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 30px;
+            color: $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 164px;
+            height: 42px;
+            border: 1px solid $white;
+            @media (max-width: 1025px) and (min-width: 768px) {
+              width: 100%;
+            }
+            @media (max-width: 768px) and (min-width: 375px) {
+              width: 100%;
+            }
+          }
+          .styledLinkContent--site-m3-academy-mobile,
+          .styledLinkContent--am3academy-mobile {
+            border-bottom: 1px solid $white;
+            padding: 8px 0;
+          }
+          .styledLinkContent--site-m3-academy,
+          .styledLinkContent--site-m3-academy-mobile,
+          .styledLinkContent--cnpj,
+          .styledLinkContent--am3academy,
+          .styledLinkContent--am3academy-mobile,
+          .styledLinkContent--responsabilidade-social,
+          .styledLinkContent--seja-um-franqueado-block {
+            font-weight: 400;
+            font-size: 14px;
+            color: $white;
+          }
+        }
+      }
+      .styledLinkContainer--am3academy-mobile,
+      .styledLinkContainer--site-m3-academy-mobile {
+        margin: 0;
+      }
+      .styledLinkContainer--seja-um-franqueado-link,
+      .styledLinkContainer--multimarcas {
+        @media (max-width: 1025px) and (min-width: 768px) {
+          display: flex;
+          justify-content: center;
+        }
+        @media (max-width: 768px) and (min-width: 375px) {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

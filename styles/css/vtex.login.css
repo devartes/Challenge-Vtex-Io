@@ -1,0 +1,37 @@
+/*
+0 - 600PX: Phone
+600 - 900px: Table portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our nortal styles apply
+1800px + : Big desktop
+*/
+/* Media Query M3 */
+/* Grid breakpoints */
+:global(.vtex-login-2-x-container) {
+  width: 22px;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button) {
+  width: 22px;
+  border: 0;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.vtex-login-2-x-container) :global(.vtex-button) {
+    left: 30px;
+  }
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button) :global(.vtex-button__label) {
+  visibility: hidden;
+  padding: 0;
+  width: 22px;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-label) {
+  display: none;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button) :global(.vtex-button__label)::before {
+  content: "";
+  background: url("https://agenciamagma.vteximg.com.br/arquivos/user-icon-m3academy-anacarolinaduartecavalcante.svg");
+  visibility: visible;
+  width: 22px;
+  height: 18px;
+  padding: 0;
+}

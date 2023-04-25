@@ -1,0 +1,890 @@
+@charset "UTF-8";
+/*
+0 - 600PX: Phone
+600 - 900px: Table portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our nortal styles apply
+1800px + : Big desktop
+*/
+/* Media Query M3 */
+/* Grid breakpoints */
+.logoContainer {
+  padding-left: 0;
+}
+
+.autoCompleteOuterContainer:first-child :global(.vtex-input) :global(.vtex-input-prefix__group) {
+  height: 19px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #aeaeae;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.autoCompleteOuterContainer:first-child :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  font-size: 12px;
+  padding-left: 12px;
+  padding-bottom: 6px;
+  background: unset;
+}
+.autoCompleteOuterContainer:first-child :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) {
+  padding: 0 0 8px;
+  background: unset;
+}
+.autoCompleteOuterContainer:first-child :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-store-components-3-x-suffixWrapper) :global(.vtex-store-components-3-x-searchBarIcon) :global(.vtex-store-components-3-x-searchIcon) {
+  width: 10px;
+  height: 10px;
+  filter: invert(79%) sepia(0%) saturate(1412%) hue-rotate(140deg) brightness(90%) contrast(83%);
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  max-width: unset !important;
+}
+
+.swiperCaret {
+  display: none;
+}
+
+.productImagesContainer .carouselContainer .carouselGaleryCursor {
+  margin: 0 !important;
+  width: auto;
+  padding: 0;
+}
+.productImagesContainer .carouselContainer .carouselGaleryCursor .productImagesGallerySwiperContainer {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .productImagesContainer .carouselContainer .carouselGaleryCursor .productImagesGallerySwiperContainer {
+    width: 99.67% !important;
+  }
+}
+.productImagesContainer .carouselContainer .carouselGaleryCursor .productImagesGallerySwiperContainer .productImagesGallerySlide {
+  margin: 0;
+}
+.productImagesContainer .carouselContainer .carouselGaleryCursor .productImagesGallerySwiperContainer .productImagesGallerySlide .productImage .productImageTag--main {
+  object-fit: cover !important;
+  max-height: unset !important;
+  aspect-ratio: 1/1;
+  width: 100% !important;
+}
+.productImagesContainer .carouselContainer .carouselGaleryCursor .productImagesGallerySwiperContainer .productImagesGallerySlide .productVideo .videoContainer {
+  padding: 50% !important;
+}
+.productImagesContainer .carouselContainer .carouselGaleryCursor .carouselGaleryThumbs {
+  margin-top: 16px;
+  height: 90px !important;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .productImagesContainer .carouselContainer .carouselGaleryCursor .carouselGaleryThumbs {
+    display: block;
+  }
+}
+.productImagesContainer .carouselContainer .carouselGaleryCursor .carouselGaleryThumbs .productImagesThumb {
+  width: 10% !important;
+  height: 10% !important;
+  margin-right: 16px;
+  width: 90px !important;
+  height: 90px !important;
+}
+.productImagesContainer .carouselContainer .carouselGaleryCursor .carouselGaleryThumbs .productImagesThumb .figure,
+.productImagesContainer .carouselContainer .carouselGaleryCursor .carouselGaleryThumbs .productImagesThumb .thumbImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.productNameContainer {
+  text-align: right;
+  margin-bottom: 8px;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .productNameContainer {
+    text-align: left;
+    margin-top: 32px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .productNameContainer {
+    text-align: left;
+    margin-top: 32px;
+  }
+}
+.productNameContainer .productBrand {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 34px;
+  color: #575757;
+}
+
+:global(.vtex-store-components-3-x-subscriberContainer) {
+  margin-top: 16px;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-title) {
+  font-size: 0;
+  margin: 0;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-title)::after {
+  content: "Produto indisponível";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #868686;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-subscribeLabel) {
+  font-size: 0;
+  margin-bottom: 16px;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-subscribeLabel)::after {
+  content: "Deseja saber quando estiver disponível?";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #868686;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) {
+  margin: 0;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) {
+  width: 60.091%;
+  margin: 0;
+  display: grid;
+  grid-template-areas: "A B" "C C";
+  max-width: unset !important;
+  column-gap: 8px;
+  grid-template-columns: 49% 49%;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  :global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) {
+    width: 44.138%;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  :global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) {
+    grid-template-columns: 49.6% 49.6%;
+    column-gap: 8px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) {
+    column-gap: 8px;
+    grid-template-columns: 48.563% 48.563%;
+    width: 100%;
+  }
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputName) {
+  grid-area: A;
+  margin: 0 0 15px 0;
+  width: 100%;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  :global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputName) {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputName) {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputName) :global(.vtex-input) :global(.vtex-input-prefix__group) {
+  border: 0 !important;
+  border-radius: unset !important;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputName) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #989898;
+  border: 1px solid #989898;
+  border-radius: unset;
+  height: 40px;
+  padding: 12px 14px;
+  width: 100%;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputName) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #989898;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputEmail) {
+  grid-area: B;
+  margin: 0 0 15px;
+  width: 100%;
+  height: 40px;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  :global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputEmail) {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputEmail) {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputEmail) :global(.vtex-input) :global(.vtex-input-prefix__group) {
+  border: 0 !important;
+  border-radius: unset !important;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputEmail) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #989898;
+  border: 1px solid #989898;
+  border-radius: unset;
+  padding: 12px 14px;
+  width: 100%;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-inputEmail) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #989898;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-submit) {
+  grid-area: C;
+  margin: 0;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-submit) :global(.vtex-button) {
+  width: 100%;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  :global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-submit) :global(.vtex-button) {
+    margin: 0;
+    height: 49px;
+  }
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-submit) :global(.vtex-button) :global(.vtex-button__label) {
+  font-size: 0;
+}
+:global(.vtex-store-components-3-x-subscriberContainer) :global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-content) :global(.vtex-store-components-3-x-submit) :global(.vtex-button) :global(.vtex-button__label)::after {
+  content: "AVISE-ME";
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.skuSelectorContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 16px;
+}
+
+.skuSelectorTextContainer {
+  display: none;
+}
+
+.skuSelectorSubcontainer--cor::before {
+  content: "OUTRAS CORES:";
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #929292;
+}
+
+.skuSelectorSubcontainer--tamanho::before {
+  content: "OUTROS TAMANHOS:";
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #929292;
+}
+
+.skuSelectorSubcontainer--tamanho {
+  margin-bottom: 10px;
+}
+.skuSelectorSubcontainer--tamanho .skuSelectorNameContainer {
+  margin: 8px 0 0;
+}
+.skuSelectorSubcontainer--tamanho .skuSelectorNameContainer .skuSelectorOptionsList {
+  margin: 0;
+  margin-left: 0;
+  column-gap: 16px;
+}
+.skuSelectorSubcontainer--tamanho .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+}
+.skuSelectorSubcontainer--tamanho .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .frameAround--sku-selector {
+  border-color: #000000;
+  border-width: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.skuSelectorSubcontainer--tamanho .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .skuSelectorInternalBox {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #989898;
+}
+.skuSelectorSubcontainer--tamanho .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .skuSelectorInternalBox .diagonalCross {
+  width: 30px;
+  height: 30px;
+  transform: rotate(274deg);
+  left: 4px;
+  top: 5px;
+}
+.skuSelectorSubcontainer--tamanho .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .skuSelectorInternalBox .skuSelectorItemTextValue {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(185, 185, 185, 0.6);
+}
+.skuSelectorSubcontainer--tamanho .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem--selected .skuSelectorInternalBox .skuSelectorItemTextValue {
+  color: #000000;
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  .skuSelectorSubcontainer--cor {
+    margin-bottom: 0;
+  }
+}
+.skuSelectorSubcontainer--cor .skuSelectorNameContainer {
+  margin: 8px 0 0;
+  height: 48px;
+}
+.skuSelectorSubcontainer--cor .skuSelectorNameContainer .skuSelectorOptionsList {
+  margin: 0 !important;
+  margin-left: 0;
+  column-gap: 16px;
+}
+.skuSelectorSubcontainer--cor .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem {
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+}
+.skuSelectorSubcontainer--cor .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .frameAround--sku-selector {
+  border-color: #000000;
+  border-width: 2px;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  margin: 0 auto;
+}
+.skuSelectorSubcontainer--cor .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .skuSelectorInternalBox {
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #989898;
+}
+.skuSelectorSubcontainer--cor .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .skuSelectorInternalBox .diagonalCross {
+  position: absolute;
+  width: 46.69px;
+  height: 0px;
+  left: calc(50% - 28.345px + 6.35px);
+  top: calc(50% + 10px - 11px);
+  border: 1px solid #d5d5d5;
+  transform: rotate(-43.26deg);
+}
+.skuSelectorSubcontainer--cor .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .skuSelectorInternalBox .valueWrapper,
+.skuSelectorSubcontainer--cor .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .skuSelectorInternalBox .skuSelectorItemImageValue {
+  border-radius: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 48px;
+  height: 48px;
+}
+
+.shippingContainer {
+  display: flex;
+  align-items: flex-end;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .shippingContainer {
+    padding-bottom: 40px;
+  }
+}
+.shippingContainer :global(.vtex-address-form__postalCode) {
+  padding-bottom: 0;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .shippingContainer :global(.vtex-address-form__postalCode) {
+    width: calc(100% - 49px);
+  }
+}
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input)::before {
+  content: "CALCULAR FRETE:";
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #929292;
+}
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) :global(.vtex-input__label) {
+  display: none;
+}
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) :global(.vtex-input-prefix__group) {
+  margin-top: 8px;
+  height: 49px;
+  border-radius: 0;
+  width: 231px;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    width: 100%;
+  }
+}
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-address-form-4-x-input) {
+  color: #afafaf;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 16.5px 0 16.5px 16px;
+}
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-address-form-4-x-input)::placeholder {
+  color: #afafaf;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) :global(.vtex-input__error) {
+  position: absolute;
+}
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL) {
+  height: 0;
+  padding: 0;
+}
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL) :last-child {
+  text-decoration-line: underline;
+  color: #000000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 0;
+  position: relative;
+  left: 312px;
+  bottom: 35px;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL) :last-child {
+    left: 81.1%;
+    bottom: 0;
+    top: 8px;
+  }
+}
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-address-form__postalCode-forgottenURL) :last-child :last-child {
+  display: none;
+}
+.shippingContainer :global(.vtex-button) {
+  width: 49px;
+  height: 49px;
+  background: #000000;
+  border-radius: 0;
+  border: none;
+}
+.shippingContainer :global(.vtex-button) :global(.vtex-button__label) {
+  display: none;
+}
+.shippingContainer :global(.vtex-button)::after {
+  content: "OK";
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.shippingTable {
+  border: 0;
+  padding: 0;
+  margin-top: 16px;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .shippingTable {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+}
+.shippingTable .shippingTableHead {
+  display: block;
+}
+.shippingTable .shippingTableHead .shippingTableRow {
+  display: grid;
+  grid-template-columns: 78px 48px 136px;
+  grid-template-areas: "A B C";
+  column-gap: 32px;
+}
+.shippingTable .shippingTableHead .shippingTableRow .shippingTableHeadDeliveryName,
+.shippingTable .shippingTableHead .shippingTableRow .shippingTableHeadDeliveryEstimate,
+.shippingTable .shippingTableHead .shippingTableRow .shippingTableHeadDeliveryPrice {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #202020;
+  text-transform: uppercase;
+  padding: 0;
+}
+.shippingTable .shippingTableHead .shippingTableRow .shippingTableHeadDeliveryName {
+  text-align: left;
+  grid-area: A;
+}
+.shippingTable .shippingTableHead .shippingTableRow .shippingTableHeadDeliveryEstimate {
+  grid-area: C;
+  text-align: left;
+}
+.shippingTable .shippingTableHead .shippingTableRow .shippingTableHeadDeliveryPrice {
+  text-align: left;
+  grid-area: B;
+  font-size: 0;
+}
+.shippingTable .shippingTableHead .shippingTableRow .shippingTableHeadDeliveryPrice::after {
+  content: "frete";
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #202020;
+  text-transform: uppercase;
+}
+.shippingTable .shippingTableBody .shippingTableRow {
+  display: grid;
+  grid-template-columns: 78px 48px 136px;
+  grid-template-areas: "A B C";
+  column-gap: 32px;
+  margin-top: 15px;
+}
+.shippingTable .shippingTableBody .shippingTableRow .shippingTableCellDeliveryName {
+  grid-area: A;
+  text-transform: capitalize;
+}
+.shippingTable .shippingTableBody .shippingTableRow .shippingTableCellDeliveryEstimate {
+  white-space: nowrap;
+  grid-area: C;
+}
+.shippingTable .shippingTableBody .shippingTableRow .shippingTableCellDeliveryPrice {
+  grid-area: B;
+}
+.shippingTable .shippingTableBody .shippingTableRow .shippingTableCell {
+  padding-left: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #afafaf;
+  padding: 0;
+}
+.shippingTable .shippingTableBody .shippingTableRow .shippingTableCell .shippingTableLabel {
+  white-space: nowrap;
+}
+.shippingTable .shippingTableBody .shippingTableRow .shippingTableCell .shippingTableLabel .shippingTableRadioBtn {
+  display: none;
+}
+
+.productImagesContainer--image-description {
+  width: 92.93%;
+  max-height: unset;
+  position: relative;
+  margin-left: 32px;
+  margin-right: 16px;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .productImagesContainer--image-description {
+    width: 94.784%;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .productImagesContainer--image-description {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .productImagesContainer--image-description {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
+.productImagesContainer--image-description .productImage--image-description .productImageTag--image-description--main {
+  object-fit: cover !important;
+  max-height: unset !important;
+}
+
+.productDescriptionContainer {
+  width: 92.93%;
+  position: relative;
+  margin-left: 16px;
+  margin-right: 32px;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .productDescriptionContainer {
+    width: 94.784%;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .productDescriptionContainer {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .productDescriptionContainer {
+    margin-left: 0;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.productDescriptionContainer .productDescriptionTitle {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #575757;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .productDescriptionContainer .productDescriptionTitle {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .productDescriptionContainer .productDescriptionTitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .productDescriptionContainer .productDescriptionTitle {
+    font-size: 20px;
+  }
+}
+.productDescriptionContainer .productDescriptionText .container {
+  padding: 0;
+}
+.productDescriptionContainer .productDescriptionText .container .content :first-child {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #929292;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .productDescriptionContainer .productDescriptionText .container .content :first-child {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .productDescriptionContainer .productDescriptionText .container .content :first-child {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .productDescriptionContainer .productDescriptionText .container .content :first-child {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+.productDescriptionContainer .productDescriptionText .container .pointerEventsNone {
+  display: none;
+}
+
+.installmentsPrice {
+  display: none;
+}
+
+.newsletter {
+  height: 175px;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 16px 16px;
+  border-bottom: 1px solid #ffffff;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .newsletter {
+    border-bottom: none !important;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .newsletter {
+    height: 200px;
+    padding: 64px 16px 12px;
+    border-bottom: none !important;
+  }
+}
+.newsletter .container {
+  margin: 0;
+}
+.newsletter .container .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 774px;
+  height: 127px;
+  max-width: unset;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .newsletter .container .form {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .newsletter .container .form {
+    width: 100%;
+    height: 124px;
+    padding: 0;
+  }
+}
+.newsletter .container .form .label {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.newsletter .container .form .label::after {
+  content: "Receba ofertas e novidades por e-mail";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #929292;
+  margin-top: 16px;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .newsletter .container .form .label::after {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .newsletter .container .form .label::after {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+.newsletter .container .form .inputGroup {
+  padding: 0;
+  margin-top: 16px;
+  height: 32px;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .newsletter .container .form .inputGroup {
+    display: flex;
+    align-items: center;
+  }
+}
+.newsletter .container .form .inputGroup :global(.vtex-input) :global(.vtex-input-prefix__group) {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #929292;
+  border-radius: 0;
+  height: 32px;
+}
+.newsletter .container .form .inputGroup :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  background-color: unset !important;
+  padding-left: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #929292;
+  border: 1px solid #000000;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .newsletter .container .form .inputGroup :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .newsletter .container .form .inputGroup :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+  }
+}
+.newsletter .container .form .inputGroup :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #929292;
+  border: 1px solid #000000;
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+  .newsletter .container .form .inputGroup :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .newsletter .container .form .inputGroup :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.newsletter .container .form .inputGroup .buttonContainer {
+  padding: 0;
+  height: 32px;
+}
+.newsletter .container .form .inputGroup .buttonContainer :global(.vtex-button) {
+  padding: 0 16px 0;
+  width: 84px;
+  height: 32px;
+  border-bottom: 3px solid #bfbfbf;
+  min-height: unset;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .newsletter .container .form .inputGroup .buttonContainer :global(.vtex-button) {
+    margin-top: 0;
+  }
+}
+.newsletter .container .form .inputGroup .buttonContainer :global(.vtex-button) :global(.vtex-button__label) {
+  height: 32px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 !important;
+}

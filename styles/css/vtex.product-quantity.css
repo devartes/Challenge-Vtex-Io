@@ -1,0 +1,65 @@
+/*
+0 - 600PX: Phone
+600 - 900px: Table portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our nortal styles apply
+1800px + : Big desktop
+*/
+/* Media Query M3 */
+/* Grid breakpoints */
+.quantitySelectorContainer {
+  margin-bottom: 0px;
+}
+@media (max-width: 768px) and (min-width: 375px) {
+  .quantitySelectorContainer {
+    margin: 0;
+  }
+}
+.quantitySelectorContainer .quantitySelectorTitle {
+  display: none;
+}
+.quantitySelectorContainer .quantitySelectorStepper :global(.vtex-numeric-stepper-wrapper) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__input) {
+  width: 32px;
+  height: 49px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #cccccc;
+  color: #929292;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0;
+}
+.quantitySelectorContainer .quantitySelectorStepper :global(.vtex-numeric-stepper-wrapper) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__plus-button-container) {
+  height: 49px;
+}
+.quantitySelectorContainer .quantitySelectorStepper :global(.vtex-numeric-stepper-wrapper) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__plus-button) {
+  font-family: "Open Sans", sans-serif;
+  height: 49px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #cccccc;
+  color: #000000;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.quantitySelectorContainer .quantitySelectorStepper :global(.vtex-numeric-stepper-wrapper) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__minus-button-container) {
+  height: 49px;
+}
+.quantitySelectorContainer .quantitySelectorStepper :global(.vtex-numeric-stepper-wrapper) :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__minus-button) {
+  font-family: "Open Sans", sans-serif;
+  height: 49px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #cccccc;
+  color: #000000;
+  border-radius: 0;
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}

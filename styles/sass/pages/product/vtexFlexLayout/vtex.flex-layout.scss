@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+//Header
+
+.flexRow--main-header {
+  display: flex;
+  justify-content: center;
+  .flexRowContent--main-header {
+    height: 97px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 40px;
+    column-gap: 16px;
+    @media (max-width: 2561px) and (min-width: 1920px) {
+      margin: 0 auto;
+      padding: 32px 14.0593%;
+    }
+    :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+      :global(.vtex-minicart-2-x-minicartContainer) {
+        :global(.vtex-minicart-2-x-openIconContainer) {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.flexRow--main-header-mobile {
+  .flexRowContent--main-header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    :global(.vtex-store-components-3-x-logoLink) {
+      position: absolute;
+      top: 16px;
+      left: 40%;
+      @media (max-width: 768px) and (min-width: 375px) {
+        left: 30%;
+      }
+      :global(.vtex-store-components-3-x-sizeMobile) {
+        padding: 0;
+        height: 33px;
+        display: contents;
+      }
+    }
+    :global(.vtex-store-drawer-0-x-openIconContainer) {
+      visibility: hidden;
+      display: flex;
+      padding-left: 40px;
+    }
+    :global(.vtex-store-drawer-0-x-openIconContainer)::before {
+      content: "";
+      background: url("https://agenciamagma.vteximg.com.br/arquivos/hamburger-icon-m3academy-anacarolinaduartecavalcante.svg");
+      visibility: visible;
+      width: 27.93px;
+      height: 21px;
+    }
+  }
+}
+
+//Product-images
+
+.flexRowContent {
+  padding: 0;
+  margin: 0;
+  column-gap: 32px;
+}
+
+.flexCol--stack-layout-content {
+  width: 100% !important;
+}
+
+//Product Price
+
+.flexRowContent {
+  :global(.vtex-product-price-1-x-sellingPrice) {
+    margin-top: 24px;
+    :global(.vtex-product-price-1-x-sellingPriceValue) {
+      height: 38px;
+      :global(.vtex-product-price-1-x-currencyContainer) {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 38px;
+        color: $black;
+      }
+    }
+  }
+}
+
+//Botao add Cart
+
+.flexRow {
+  .flexRowContent {
+    .stretchChildrenWidth {
+      :global(.vtex-button):first-child {
+        background: $black;
+        padding: 12px 64px;
+        height: 49px;
+        border: none;
+        border-radius: 0;
+        @media (max-width: 768px) and (min-width: 375px) {
+          height: 74px;
+          margin-top: 10px;
+        }
+        :global(.vtex-button__label) {
+          :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+            font-size: 0;
+          }
+          :global(.vtex-add-to-cart-button-0-x-buttonDataContainer)::after {
+            content: "ADICIONAR À SACOLA";
+            font-family: "Open Sans", sans-serif;
+            color: $white;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//Footer
+
+.flexRow--menu-row {
+  background-color: $black;
+  height: 464px;
+  padding: 32px 32px 128px;
+  @media (max-width: 2561px) and (min-width: 1920px) {
+    padding: 32px 320px 128px;
+  }
+}
+.flexRow--menu-row-mobile {
+  background-color: $black;
+  min-height: 532px;
+  padding: 0px 16px 32px;
+  .flexRowContent--menu-row-mobile {
+    display: flex;
+    flex-direction: column;
+    .stretchChildrenWidth {
+      width: 100% !important;
+    }
+  }
+}
+
+//Footer Newsletter
+
+.flexRow--newsletter-footer {
+  @media (max-width: 768px) and (min-width: 375px) {
+    margin-top: 32px;
+  }
+}

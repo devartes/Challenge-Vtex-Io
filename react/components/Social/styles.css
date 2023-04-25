@@ -1,0 +1,59 @@
+.FooterRightBlockSocial {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  .FooterRightBlockSocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  .FooterRightBlockSocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+}
+
+.SpanTitleSocial {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 38px;
+}
+
+.UlGroupSocial {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  row-gap: 4px;
+}
+
+@media (max-width: 1025px) and (min-width: 768px) {
+  .UlGroupSocial {
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  .UlGroupSocial {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.UlSecondarySocial {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  column-gap: 8px;
+  list-style: none;
+}

@@ -1,0 +1,77 @@
+/*
+0 - 600PX: Phone
+600 - 900px: Table portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our nortal styles apply
+1800px + : Big desktop
+*/
+/* Media Query M3 */
+/* Grid breakpoints */
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0 0 16px;
+}
+@media (max-width: 2561px) and (min-width: 1920px) {
+  .container {
+    margin: 0 auto;
+    width: 71.858%;
+  }
+}
+.container .homeLink {
+  padding: 0 12px 0 0;
+}
+.container .homeLink::before {
+  content: "Home";
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #929292;
+}
+.container .homeIcon {
+  display: none;
+}
+.container .arrow {
+  align-items: center;
+  display: flex;
+  padding: 0 12px 0 0;
+}
+.container .arrow .caretIcon {
+  display: none;
+}
+.container .arrow ::before {
+  content: ">";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #929292;
+  margin-right: 13px;
+}
+.container .arrow .link {
+  padding: 0;
+}
+.container .termArrow {
+  display: none;
+}
+.container .term {
+  padding: 0;
+}
+.container .term::before {
+  content: ">";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #929292;
+  margin-right: 15px;
+}
+.container .link,
+.container .term {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #929292;
+}

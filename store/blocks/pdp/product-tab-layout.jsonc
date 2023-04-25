@@ -1,0 +1,115 @@
+{
+  "product-images#description-content": {
+    "props": {
+      "displayMode": "first-image",
+      "zoomMode": "disabled",
+      "blockClass": "image-description"
+    }
+  },
+
+  "html#tab-layout#description": {
+    "props": {
+      "testId": "product-description"
+    },
+    "children": ["tab-layout#description"]
+  },
+
+  "tab-layout#description": {
+    "children": ["tab-list#description", "tab-content#description"],
+    "props": {
+      "blockClass": "description-block",
+      "defaultActiveTabId": "firstTab"
+    }
+  },
+
+  "tab-list#description": {
+    "children": [
+      "tab-list.item#firstTab",
+      "tab-list.item#secondTab",
+      "tab-list.item#thirdTab",
+      "tab-list.item#fourthTab",
+      "tab-list.item#fifthTab"
+    ]
+  },
+
+  "tab-list.item#firstTab": {
+    "props": {
+      "tabId": "firstTab",
+      "label": "Descrição",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#secondTab": {
+    "props": {
+      "tabId": "secondTab",
+      "label": "Descrição"
+    }
+  },
+
+  "tab-list.item#thirdTab": {
+    "props": {
+      "tabId": "thirdTab",
+      "label": "Descrição"
+    }
+  },
+
+  "tab-list.item#fourthTab": {
+    "props": {
+      "tabId": "fourthTab",
+      "label": "Descrição"
+    }
+  },
+
+  "tab-list.item#fifthTab": {
+    "props": {
+      "tabId": "fifthTab",
+      "label": "Descrição"
+    }
+  },
+
+  "tab-content#description": {
+    "children": [
+      "tab-content.item#firstTab",
+      "tab-content.item#secondTab",
+      "tab-content.item#thirdTab",
+      "tab-content.item#fourthTab",
+      "tab-content.item#fifthTab"
+    ]
+  },
+
+  "tab-content.item#firstTab": {
+    "children": ["product-images#description-content", "product-description"],
+    "props": {
+      "tabId": "firstTab"
+    }
+  },
+
+  "tab-content.item#secondTab": {
+    "children": ["product-images#description-content", "product-description"],
+    "props": {
+      "tabId": "secondTab"
+    }
+  },
+
+  "tab-content.item#thirdTab": {
+    "children": ["product-images#description-content", "product-description"],
+    "props": {
+      "tabId": "thirdTab"
+    }
+  },
+
+  "tab-content.item#fourthTab": {
+    "children": ["product-images#description-content", "product-description"],
+    "props": {
+      "tabId": "fourthTab"
+    }
+  },
+
+  "tab-content.item#fifthTab": {
+    "children": ["product-images#description-content", "product-description"],
+    "props": {
+      "tabId": "fifthTab"
+    }
+  }
+}

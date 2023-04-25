@@ -1,0 +1,427 @@
+{
+  "vtex.menu@2.x:menu#footer-site-m3-academy": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#site-m3-academy",
+      "menu-item#loja-ebit-ouro",
+      "menu-item#trocas-e-devolucoes",
+      "menu-item#central-de-atendimento",
+      "menu-item#fale-conosco",
+      "menu-item#imprensa",
+      "menu-item#rastreamento",
+      "menu-item#cnpj"
+    ]
+  },
+  "menu-item#site-m3-academy": {
+    "props": {
+      "blockClass": "site-m3-academy",
+      "id": "menu-item-site-m3-academy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Site M3 Academy",
+        "text": "Site M3 Academy"
+      }
+    }
+  },
+  "menu-item#loja-ebit-ouro": {
+    "props": {
+      "id": "menu-item-loja-ebit-ouro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Loja Ebit Ouro",
+        "text": "Loja Ebit Ouro"
+      }
+    }
+  },
+  "menu-item#trocas-e-devolucoes": {
+    "props": {
+      "id": "menu-item-trocas-e-devolucoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Trocas e devoluções",
+        "text": "Trocas e devoluções"
+      }
+    }
+  },
+  "menu-item#central-de-atendimento": {
+    "props": {
+      "id": "menu-item-central-de-atendimento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Central de atendimento",
+        "text": "Central de atendimento"
+      }
+    }
+  },
+  "menu-item#fale-conosco": {
+    "props": {
+      "id": "menu-item-fale-conosco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Fale conosco",
+        "text": "Fale conosco"
+      }
+    }
+  },
+  "menu-item#imprensa": {
+    "props": {
+      "id": "menu-item-imprensa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Imprensa",
+        "text": "Imprensa"
+      }
+    }
+  },
+  "menu-item#rastreamento": {
+    "props": {
+      "id": "menu-item-rastreamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Rastreamento",
+        "text": "Rastreamento"
+      }
+    }
+  },
+  "menu-item#cnpj": {
+    "props": {
+      "blockClass": "cnpj",
+      "id": "menu-item-cnpj",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "CNPJ 12.345.678.0009-10",
+        "text": "CNPJ 12.345.678.0009-10"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-seja-um-franqueado-container": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#seja-um-franqueado-block",
+      "menu-item#seja-um-franqueado-link",
+      "menu-item#multimarcas"
+    ]
+  },
+
+  "menu-item#seja-um-franqueado-block": {
+    "props": {
+      "blockClass": "seja-um-franqueado-block",
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "Seja um franqueado",
+        "text": "Seja um franqueado"
+      }
+    }
+  },
+
+  "menu-item#seja-um-franqueado-link": {
+    "props": {
+      "blockClass": "seja-um-franqueado-link",
+      "id": "menu-item-seja-um-franqueado-link",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/seja-um-franqueado-link",
+        "noFollow": true,
+        "tagTitle": "Seja um franqueado",
+        "text": "Seja um franqueado"
+      }
+    }
+  },
+
+  "menu-item#multimarcas": {
+    "props": {
+      "blockClass": "multimarcas",
+      "id": "menu-item-multimarcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/multimarcas",
+        "noFollow": true,
+        "tagTitle": "Multimarcas",
+        "text": "Multimarcas"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-am3academy": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#am3academy",
+      "menu-item#seja-um-franqueado",
+      "menu-item#quem-somos",
+      "menu-item#nossas-lojas",
+      "menu-item#responsabilidade-social",
+      "menu-item#franquias",
+      "menu-item#procon-mg",
+      "menu-item#politica-de-privacidade"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#site-m3-academy-mobile",
+      "menu-item#am3academy-mobile"
+    ]
+  },
+
+  "menu-item#site-m3-academy-mobile": {
+    "props": {
+      "blockClass": "site-m3-academy-mobile",
+      "id": "menu-item-category-site-m3academy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/site-m3academy/d",
+        "noFollow": true,
+        "tagTitle": "Site M3 Academy",
+        "text": "Site M3 Academy"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#site-m3-academy"]
+  },
+  "vtex.menu@2.x:submenu.accordion#site-m3-academy": {
+    "children": ["vtex.menu@2.x:menu#site-m3-academy-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#site-m3-academy-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#loja-ebit-ouro",
+      "menu-item#trocas-e-devolucoes",
+      "menu-item#central-de-atendimento",
+      "menu-item#fale-conosco",
+      "menu-item#imprensa",
+      "menu-item#rastreamento",
+      "menu-item#cnpj"
+    ]
+  },
+
+  "menu-item#am3academy-mobile": {
+    "props": {
+      "blockClass": "am3academy-mobile",
+      "id": "menu-item-category-am3academy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/am3academy/d",
+        "noFollow": true,
+        "tagTitle": "A M3 Academy",
+        "text": "A M3 Academy"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#am3academy"]
+  },
+  "vtex.menu@2.x:submenu.accordion#am3academy": {
+    "children": ["vtex.menu@2.x:menu#am3academy-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#am3academy-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#seja-um-franqueado",
+      "menu-item#quem-somos",
+      "menu-item#nossas-lojas",
+      "menu-item#responsabilidade-social",
+      "menu-item#franquias",
+      "menu-item#procon-mg",
+      "menu-item#politica-de-privacidade"
+    ]
+  },
+
+  "menu-item#am3academy": {
+    "props": {
+      "blockClass": "am3academy",
+      "id": "menu-item-category-am3academy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/am3academy/d",
+        "noFollow": true,
+        "tagTitle": "A M3 Academy",
+        "text": "A M3 Academy"
+      }
+    }
+  },
+
+  "menu-item#seja-um-franqueado": {
+    "props": {
+      "id": "menu-item-seja-um-franqueado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/am3academy/seja-um-franqueado",
+        "noFollow": false,
+        "tagTitle": "Seja um franqueado",
+        "text": "Seja um franqueado"
+      }
+    }
+  },
+
+  "menu-item#quem-somos": {
+    "props": {
+      "id": "menu-item-quem-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/am3academy/quem-somos",
+        "noFollow": false,
+        "tagTitle": "Quem somos",
+        "text": "Quem somos"
+      }
+    }
+  },
+
+  "menu-item#nossas-lojas": {
+    "props": {
+      "id": "menu-item-nossas-lojas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/am3academy/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "Nossas lojas",
+        "text": "Nossas lojas"
+      }
+    }
+  },
+
+  "menu-item#responsabilidade-social": {
+    "props": {
+      "blockClass": "responsabilidade-social",
+      "id": "menu-item-responsabilidade-social",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/am3academy/responsabilidade-social",
+        "noFollow": false,
+        "tagTitle": "Responsabilidade Social",
+        "text": "Responsabilidade Social"
+      }
+    }
+  },
+
+  "menu-item#franquias": {
+    "props": {
+      "id": "menu-item-franquias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/am3academy/franquias",
+        "noFollow": false,
+        "tagTitle": "Franquias",
+        "text": "Franquias"
+      }
+    }
+  },
+  "menu-item#procon-mg": {
+    "props": {
+      "id": "menu-item-procon-mg",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/am3academy/procon-mg",
+        "noFollow": false,
+        "tagTitle": "Procon MG",
+        "text": "Procon MG"
+      }
+    }
+  },
+  "menu-item#politica-de-privacidade": {
+    "props": {
+      "id": "menu-item-politica-de-privacidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/am3academy/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  }
+}

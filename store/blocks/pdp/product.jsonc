@@ -1,0 +1,25 @@
+{
+  "store.product": {
+    "children": [
+      "html#breadcrumb",
+      "condition-layout.product#availability",
+      // "flex-layout.row#description",
+      "html#tab-layout#description",
+      // "flex-layout.row#specifications-title",
+      // "product-specification-group#table",
+      // "shelf.relatedProducts",
+      "html#slider-block-container",
+      "product-questions-and-answers"
+    ]
+  }
+  // "share#default": {
+  //   "props": {
+  //     "social": {
+  //       "Facebook": true,
+  //       "WhatsApp": true,
+  //       "Twitter": false,
+  //       "Pinterest": true
+  //     }
+  //   }
+  // }
+}

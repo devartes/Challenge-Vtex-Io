@@ -1,0 +1,24 @@
+{
+  "example-component": {
+    "component": "Example"
+  },
+  "html": {
+    "component": "html",
+    "composition": "children"
+  },
+  "pix-component": {
+    "component": "Pix"
+  },
+  "placeholder-component": {
+    "component": "Placeholder"
+  },
+  "social-networks-component": {
+    "component": "Social"
+  },
+  "payment-methods-component": {
+    "component": "PaymentMethods"
+  },
+  "authors-component": {
+    "component": "Authors"
+  }
+}

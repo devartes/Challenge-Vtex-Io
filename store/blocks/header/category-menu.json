@@ -1,0 +1,295 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "header-menu"
+    },
+    "children": [
+      "menu-item#novidades",
+      "menu-item#sapatos",
+      "menu-item#category-apparel",
+      "menu-item#category-home",
+      "menu-item#more",
+      "menu-item#category-lojas",
+      "menu-item#category-seja-franqueado"
+    ]
+  },
+
+  "menu-item#novidades": {
+    "props": {
+      "id": "menu-item-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/novidades/",
+        "noFollow": false,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#novidades"]
+  },
+  "vtex.menu@2.x:submenu#novidades": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#novidades"]
+  },
+  "vtex.menu@2.x:menu#novidades": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-am3academy",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+
+  "menu-item#sapatos": {
+    "props": {
+      "id": "menu-item-sapatos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sapatos/",
+        "noFollow": false,
+        "tagTitle": "Sapatos",
+        "text": "Sapatos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#sapatos"]
+  },
+  "vtex.menu@2.x:submenu#sapatos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#sapatos"]
+  },
+  "vtex.menu@2.x:menu#sapatos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-am3academy",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel & Accessories",
+        "text": "Bolsas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-apparel"]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#category-apparel"]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-am3academy",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+
+  "menu-item#category-apparel-am3academy": {
+    "props": {
+      "id": "menu-item-category-apparel-am3academy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/am3academy/",
+        "noFollow": false,
+        "tagTitle": "A M3 Academy",
+        "text": "A M3 Academy"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Acessorios",
+        "text": "Acessorios"
+      }
+    }
+  },
+
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-trocas-e-devolucoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#more"]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-more"]
+  },
+  "flex-layout.row#menu-more": {
+    "children": ["flex-layout.col#menu-more-1", "flex-layout.col#menu-more-2"]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": ["vtex.menu@2.x:menu#more"]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": ["info-card#home"]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#about-us", "menu-item#faq"]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  },
+
+
+  "menu-item#category-lojas": {
+    "props": {
+      "id": "menu-item-category-lojas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lojas/",
+        "noFollow": false,
+        "tagTitle": "Lojas",
+        "text": "Lojas"
+      }
+    }
+  },
+
+
+  "menu-item#category-seja-franqueado": {
+    "props": {
+      "id": "menu-item-category-seja-franqueado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Seja---Franqueado/",
+        "noFollow": false,
+        "tagTitle": "Seja Franqueado",
+        "text": "Seja Franqueado"
+      }
+    }
+  }
+}

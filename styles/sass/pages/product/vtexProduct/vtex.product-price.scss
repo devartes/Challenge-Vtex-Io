@@ -1,0 +1,115 @@
+//Dados produto
+
+.sellingPrice {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: $black;
+  margin-top: 24px;
+}
+
+//Parcelamento
+
+.installments--product-installments {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $gray;
+  .installmentsNumber {
+    font-weight: 700;
+    &::after {
+      content: "x";
+      margin-left: 4px;
+    }
+  }
+  .installmentValue {
+    font-weight: 700;
+  }
+}
+
+//Slider
+
+.listPrice {
+  padding: 0;
+  text-align: center;
+  height: 19px !important;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  line-height: 19px;
+  @media (max-width: 1025px) and (min-width: 768px) {
+    height: 16px !important;
+    line-height: 16px;
+  }
+  @media (max-width: 768px) and (min-width: 375px) {
+    height: 16px !important;
+    line-height: 16px;
+  }
+  :global(.vtex-store-components-3-x-listPriceLabel) {
+    display: none;
+  }
+  .listPriceValue {
+    padding: 0;
+    text-decoration-thickness: 1px;
+    color: #bababa;
+    .currencyContainer {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: $BABABA;
+      display: block;
+      @media (max-width: 1025px) and (min-width: 768px) {
+        font-size: 12px;
+        line-height: 16px;
+      }
+      @media (max-width: 768px) and (min-width: 375px) {
+        font-size: 12px;
+        line-height: 16px;
+      }
+      &::before {
+        content: "de ";
+      }
+      &::after {
+        content: " por";
+      }
+    }
+  }
+}
+
+.sellingPrice {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+  @media (max-width: 1025px) and (min-width: 768px) {
+    line-height: 25px;
+  }
+  .sellingPriceValue {
+    height: 33px;
+    line-height: 33px;
+    @media (max-width: 1025px) and (min-width: 768px) {
+      line-height: 25px;
+      height: 25px;
+    }
+    @media (max-width: 768px) and (min-width: 375px) {
+      line-height: 25px;
+      height: 25px;
+    }
+    .currencyContainer {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+      text-align: center;
+      color: $black;
+      @media (max-width: 1025px) and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 25px;
+      }
+      @media (max-width: 768px) and (min-width: 375px) {
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+  }
+}
